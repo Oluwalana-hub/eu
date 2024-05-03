@@ -1,0 +1,39 @@
+body{
+    background: beige;
+    margin: auto;
+    padding: 1em;
+   
+}
+img{
+    max-width: 150px;
+   float: right;
+   border-radius: 50%;
+
+   
+
+   
+}
+div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.centered-content img {
+    display: block; /* Make the image a block element for center alignment */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  .centered-content p {
+    margin-top: 10px; /* Adjust the top margin for spacing */
+  }
+  p{
+    position: inherit;
+  }
+ .Q{
+  float: right;
+ }
+  h3{
+    text-align: center;
+  }
+#bio{
+ box-sizing: border-box;
+}
